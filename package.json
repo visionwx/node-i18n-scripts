@@ -1,0 +1,16 @@
+{
+  "name": "node-i18n-scripts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:web": "node boom-web.js",
+    "build:desktop": "node boom-desktop.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-xlsx": "^0.17.2"
+  }
+}
